@@ -4,7 +4,6 @@ describe('checkForShip', function () {
   var checkForShip = require('../game_logic/ship_methods').checkForShip;
 
   it('should correctly report no ship at a given players coordinate', function () {
-
     // given (arrange)
     player = {
       ships: [
@@ -22,7 +21,6 @@ describe('checkForShip', function () {
   });
 
   it('should correctly report a ship at a given players coordinate', function () {
-
     player = {
       ships: [
         {
@@ -35,7 +33,6 @@ describe('checkForShip', function () {
   });
 
   it('should handle ships located at more than one coordinate', function () {
-
     player = {
       ships: [
         {
@@ -50,7 +47,6 @@ describe('checkForShip', function () {
   });
 
   it('should handle checking multiple ships', function () {
-
     player = {
       ships: [
         {
